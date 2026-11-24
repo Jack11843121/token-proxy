@@ -7,7 +7,7 @@
 # =============================================================================
 set -euo pipefail
 
-DOWNLOAD_BASE="${TOKEN_PROXY_DOWNLOAD:-http://140.143.248.224:8000/releases}"
+DOWNLOAD_BASE="${TOKEN_PROXY_DOWNLOAD:-https://www.dashi8.com/releases}"
 INSTALL_DIR="${TOKEN_PROXY_INSTALL_DIR:-/opt/token-proxy}"
 PORT="${TOKEN_PROXY_PORT:-3000}"
 ADMIN_USER="${TOKEN_PROXY_ADMIN_USER:-root}"

@@ -45,7 +45,7 @@
 ### 方式一：一键安装（Linux，推荐）
 
 ```bash
-curl -fsSL http://140.143.248.224:8000/releases/token-proxy-install.sh -o install.sh
+curl -fsSL https://www.dashi8.com/releases/token-proxy-install.sh -o install.sh
 sudo bash install.sh
 ```
 
