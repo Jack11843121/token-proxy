@@ -1,0 +1,17 @@
+services:
+  token-proxy:
+    build: .
+    image: token-proxy:latest
+    container_name: token-proxy
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - TZ=Asia/Shanghai
+      - TOKEN_PROXY_LISTEN=:3000
+      - TOKEN_PROXY_DATA_DIR=/data
+      - TOKEN_PROXY_ADMIN_USER=root
+      - TOKEN_PROXY_ADMIN_PASS=${TOKEN_PROXY_ADMIN_PASS:-123456}
+      - TOKEN_PROXY_JWT_SECRET=${TOKEN_PROXY_JWT_SECRET:-change-me}
+    volumes:
+      - ./data:/data
