@@ -1,6 +1,6 @@
 # 🌉 Token 网关 token-proxy
 
-> 开源多模型 **Token 网关 / 大模型中转站**（参考 new-api 设计）。用一个 OpenAI 兼容接口，把 **OpenAI / Claude / Gemini / DeepSeek / 通义千问 / Kimi / 智谱 GLM / 豆包** 等各家大模型聚合成一条中继出口，自带用户/额度/计费/日志/统计管理。
+> 开源多模型 **Token 网关 / 大模型中转站**，一个 OpenAI 兼容接口，把 **OpenAI / Claude / Gemini / DeepSeek / 通义千问 / Kimi / 智谱 GLM / 豆包** 等各家大模型聚合成一条中继出口，自带用户/额度/计费/日志/统计管理。
 
 **单二进制部署 · 内置 SQLite · 内置 Web 管理后台 · 无需 Docker/MySQL/Node**，Linux 一键安装，开箱即用。
 

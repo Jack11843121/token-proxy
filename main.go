@@ -1,4 +1,4 @@
-// token-proxy —— 开源多模型 Token 网关 / 大模型中转站（参考 new-api）。
+// token-proxy —— 开源多模型 Token 网关 / 大模型中转站。
 // 单二进制部署：内置 SQLite，后台管理 REST API + OpenAI 兼容中继 + 嵌入的前端界面。
 package main
 
